@@ -1,86 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>MTN Promo</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: white;
-      background: linear-gradient(135deg, #ffcc00, #000000);
-      height: 100vh;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      animation: gradientMove 10s infinite alternate;
-    }
+# MTN Promo Website
 
-    @keyframes gradientMove {
-      0% { background-position: 0% 50%; }
-      100% { background-position: 100% 50%; }
-    }
+This repository contains the source code for a simple MTN promo landing page with animated MTN letters and a promo message.
 
-    .mtn-text {
-      font-size: 64px;
-      font-weight: bold;
-      color: #ffcc00;
-      text-shadow: 2px 2px 4px black;
-      animation: pulse 1.5s infinite;
-    }
+## How to View
 
-    @keyframes pulse {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.1); }
-      100% { transform: scale(1); }
-    }
+The website is hosted using GitHub Pages.
 
-    .promo-message {
-      margin-top: 20px;
-      font-size: 20px;
-      text-align: center;
-      max-width: 90%;
-    }
+You can visit the live site here:  
+[https://starbois.github.io/mtnpromo/](https://starbois.github.io/mtnpromo/)
 
-    .logo {
-      width: 120px;
-      margin-top: 30px;
-      animation: float 3s ease-in-out infinite;
-    }
+## Files
 
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
+- `index.html` — The main webpage with animation and promo message.
+- `README.md` — This file with project info.
 
-    .button {
-      margin-top: 30px;
-      background-color: #ffcc00;
-      color: black;
-      padding: 12px 24px;
-      border: none;
-      font-size: 18px;
-      cursor: pointer;
-      text-decoration: none;
-      border-radius: 8px;
-      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
-      transition: transform 0.3s ease;
-    }
+## How to Deploy
 
-    .button:hover {
-      transform: scale(1.05);
-    }
-  </style>
-</head>
-<body>
-  <div class="mtn-text">MTN</div>
-  <div class="promo-message">
-    Congratulations! MTN is rewarding selected users with exclusive data bundles, airtime, and bonuses.<br><br>
-    Click the button below to check if you're eligible and claim your reward!
-  </div>
-  <a href="https://academicagent.net/M3M4ZzAwNnEzQTFpNks=" class="button">Check Now</a>
-  <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/2/24/MTN_Logo.svg" alt="MTN Logo">
-</body>
-</html>
+1. Upload your files to this repository.
+2. Enable GitHub Pages from the repository **Settings** → **Pages** section.
+3. Select the branch (usually `main`) and root folder.
+4. Save, then visit the provided URL.
+
+---
+
+Created by starbois
